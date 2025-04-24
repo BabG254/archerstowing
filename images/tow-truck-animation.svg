@@ -1,0 +1,29 @@
+<svg width="800" height="400" viewBox="0 0 800 400" xmlns="http://www.w3.org/2000/svg">
+    <!-- Truck Body -->
+    <g id="truck" fill="#E50914">
+        <path d="M100 250 h400 l100 -50 h100 v100 h-600 v-50" />
+        <!-- Cabin -->
+        <path d="M100 250 v-80 h120 v80" fill="#333"/>
+        <!-- Windows -->
+        <path d="M110 180 h90 v40 h-90" fill="#87CEEB"/>
+    </g>
+    
+    <!-- Wheels -->
+    <g id="wheels">
+        <circle cx="200" cy="300" r="40" fill="#333"/>
+        <circle cx="600" cy="300" r="40" fill="#333"/>
+        <circle cx="200" cy="300" r="20" fill="#666"/>
+        <circle cx="600" cy="300" r="20" fill="#666"/>
+    </g>
+    
+    <!-- Towing Arm -->
+    <g id="arm" fill="#666">
+        <path d="M650 250 h80 v50 h-80" />
+        <circle cx="730" cy="275" r="20"/>
+    </g>
+    
+    <!-- Light Bar -->
+    <g id="lights">
+        <rect x="100" y="170" width="120" height="10" fill="#FFD700"/>
+    </g>
+</svg>

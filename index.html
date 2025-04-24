@@ -1,0 +1,561 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Archers Towing Company - Professional Towing & Recovery</title>
+    
+    <!-- Meta Tags -->
+    <meta name="description" content="24/7 Professional towing and vehicle recovery services. Reliable, fast, and affordable assistance when you need it most.">
+    <meta name="keywords" content="towing service, vehicle recovery, roadside assistance, emergency towing, car towing">
+    
+    <!-- Open Graph -->
+    <meta property="og:title" content="Archers Towing Company">
+    <meta property="og:description" content="Professional towing and vehicle recovery services">
+    <meta property="og:type" content="website">
+    
+    <!-- Stylesheets -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
+    <link href="https://cdn.jsdelivr.net/npm/aos@2.3.4/dist/aos.css" rel="stylesheet">
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link href="css/style.css" rel="stylesheet">
+    <!-- Font Awesome for icons -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" integrity="sha512-iecdLmaskl7CVkqkXNQ/ZH/XLlvWZOJyj7Yy7tcenmpD1ypASozpmT/E0iPtmFIB46ZmdtAc9eNBvH0H/ZpiBw==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+</head>
+<body>
+    <!-- Main Navigation -->
+    <nav class="navbar navbar-expand-lg fixed-top navbar-dark py-3 navbar-transparent">
+        <div class="container-fluid">
+            <a class="navbar-brand" href="#">
+                <img src="images/logo archers.png" alt="Archers Towing" height="80" class="d-inline-block align-top">
+            </a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse d-flex align-items-center justify-content-end" id="navbarNav">
+                <ul class="navbar-nav ms-auto">
+                    <li class="nav-item"><a class="nav-link" href="#home">Home</a></li>
+                    <li class="nav-item"><a class="nav-link" href="#about">About Us</a></li>
+                    <li class="nav-item dropdown">
+                        <a class="nav-link dropdown-toggle" href="#services" role="button" data-bs-toggle="dropdown">Services</a>
+                        <ul class="dropdown-menu">
+                            <li><a class="dropdown-item" href="#car-towing">Car Towing</a></li>
+                            <li><a class="dropdown-item" href="#flatbed-towing">Flatbed Towing</a></li>
+                            <li><a class="dropdown-item" href="#hook-chain">Hook and Chain Towing</a></li>
+                            <li><a class="dropdown-item" href="#motorcycle">Motorcycle Towing</a></li>
+                            <li><a class="dropdown-item" href="#tractor">Tractor Transportation</a></li>
+                        </ul>
+                    </li>
+                    <li class="nav-item"><a class="nav-link" href="#gallery">Gallery</a></li>
+                    <li class="nav-item"><a class="nav-link" href="#pricing">Pricing</a></li>
+                    <li class="nav-item"><a class="nav-link" href="#contact">Contact Us</a></li>
+                    <li class="nav-item"><a class="nav-link" href="#blog">Blog</a></li>
+                </ul>
+                
+                <!-- Contact Information and Social Media Icons -->
+                <div class="d-flex align-items-center ms-3">
+                    <a href="tel:+254704851297" class="text-white me-2">
+                        <i class="fas fa-phone-alt"></i> 0704851297
+                    </a>
+                    <a href="mailto:info@archerstowing.co.ke" class="text-white me-2">
+                        <i class="fas fa-envelope"></i> info@archerstowing.co.ke
+                    </a>
+                    <a href="https://www.facebook.com/archerstowing" target="_blank" class="text-white me-2">
+                        <i class="fab fa-facebook-f"></i>
+                    </a>
+                    <a href="https://www.instagram.com/archerstowing" target="_blank" class="text-white me-2">
+                        <i class="fab fa-instagram"></i>
+                    </a>
+                    <a href="https://www.youtube.com/archerstowing" target="_blank" class="text-white">
+                        <i class="fab fa-youtube"></i>
+                    </a>
+                </div>
+                
+                <!-- Search Icon -->
+                <div class="search-icon ms-3">
+                    <a href="#search" class="text-white">
+                        <i class="fas fa-search"></i>
+                    </a>
+                </div>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Hero Section with Video Background -->
+    <section id="home" class="hero-section">
+        <div class="video-background">
+            <video autoplay muted loop id="heroVideo">
+                <source src="images/hero-background.mp4" type="video/mp4">
+            </video>
+            <div class="overlay"></div>
+        </div>
+        <div class="container h-100 d-flex flex-column justify-content-center align-items-center text-center">
+            <h1 class="text-5xl font-bold text-white mb-4">Archers Towing</h1>
+            <p class="text-xl text-gray-300 mb-4">Discover how our professional towing services are transforming roadside assistance, providing reliable recovery, and fostering safety across Kenya.</p>
+            <!-- Update the hero section CTA button -->
+            <div class="cta-buttons">
+                <a href="#services" class="btn btn-primary btn-lg me-3">Our Services</a>
+                <a href="tel:+254704851297" class="btn btn-outline-light btn-lg">
+                    <i class="fas fa-phone-alt me-2"></i>Emergency Call
+                </a>
+            </div>
+        </div>
+        
+        <!-- Service Navigation Tabs -->
+        <div class="service-tabs mt-5">
+            <div class="container">
+                <div class="service-tabs-inner d-flex justify-content-center">
+                    <a href="#emergency" class="service-tab active">Emergency Towing</a>
+                    <a href="#recovery" class="service-tab">Vehicle Recovery</a>
+                    <a href="#roadside" class="service-tab">Roadside Assistance</a>
+                    <a href="#transport" class="service-tab">Vehicle Transport</a>
+                    <a href="#sustainability" class="service-tab">Sustainability</a>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- Quick Action Cards -->
+    <section class="quick-actions py-5">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-6">
+                    <div class="action-card">
+                        <div class="action-content">
+                            <h3>Request Towing</h3>
+                            <p>Apply for emergency towing services</p>
+                            <a href="https://wa.me/254704851297" class="learn-more">Learn more</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-6">
+                    <div class="action-card">
+                        <div class="action-content">
+                            <h3>Report a Breakdown</h3>
+                            <p>Let us know about your vehicle breakdown</p>
+                            <a href="tel:+254704851297" class="learn-more">Learn more</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Services Section -->
+    <section id="services" class="py-16 bg-gray-100">
+        <div class="container">
+            <h2 class="text-4xl font-bold text-center mb-12" data-aos="fade-up">Our Services</h2>
+            <div class="row g-4">
+                <div class="col-md-4" data-aos="fade-up" data-aos-delay="100">
+                    <div class="service-card">
+                        <i class="fas fa-car-crash text-primary mb-4"></i>
+                        <h3>Car Towing</h3>
+                        <p>Professional car towing service for all vehicle types</p>
+                    </div>
+                </div>
+                <div class="col-md-4" data-aos="fade-up" data-aos-delay="200">
+                    <div class="service-card">
+                        <i class="fas fa-truck-loading text-primary mb-4"></i>
+                        <h3>Flatbed Towing</h3>
+                        <p>Safe and secure flatbed transportation services</p>
+                    </div>
+                </div>
+                <div class="col-md-4" data-aos="fade-up" data-aos-delay="300">
+                    <div class="service-card">
+                        <i class="fas fa-link text-primary mb-4"></i>
+                        <h3>Hook and Chain Towing</h3>
+                        <p>Traditional towing method for specific situations</p>
+                    </div>
+                </div>
+                <div class="col-md-4" data-aos="fade-up" data-aos-delay="400">
+                    <div class="service-card">
+                        <i class="fas fa-motorcycle text-primary mb-4"></i>
+                        <h3>Motorcycle Towing</h3>
+                        <p>Specialized motorcycle transport services</p>
+                    </div>
+                </div>
+                <div class="col-md-4" data-aos="fade-up" data-aos-delay="500">
+                    <div class="service-card">
+                        <i class="fas fa-tractor text-primary mb-4"></i>
+                        <h3>Tractor Transportation</h3>
+                        <p>Heavy-duty tractor and machinery transport</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- About Section -->
+    <section id="about" class="py-16">
+        <div class="container">
+            <!-- Main About Header -->
+            <div class="about-header text-center mb-5" data-aos="fade-up">
+                <h2 class="text-4xl font-bold mb-4">About Us: Your Trusted Partner for<br>Breakdown Services in Kenya</h2>
+                <p class="lead">At Archers Towing, we're more than just a provider of breakdown services in Kenya – we're your reliable partner on the road.</p>
+            </div>
+    
+            <!-- Story Section -->
+            <div class="row align-items-center mb-5">
+                <div class="col-lg-6" data-aos="fade-right">
+                    <div class="about-story pe-lg-4">
+                        <h3 class="text-2xl font-bold mb-4">Our Story: From Mechanic to Trusted Towing Service Owner</h3>
+                        <p class="mb-4">Archers Towing Company was founded by a passionate mechanic with a dream to make Kenya's roads safer and less stressful for motorists. Daniel's journey began in Kariokor, Nairobi, where he worked tirelessly as a mechanic at a local garage.</p>
+                        <div class="story-highlight mt-4">
+                            <img src="images/story1.jpeg" alt="Our Beginning" class="rounded-lg shadow-xl mb-4">
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-6" data-aos="fade-left">
+                    <div class="about-growth">
+                        <p class="mb-4">One of the garage's regular customers was the owner of a flatbed tow truck. Impressed by Daniel's meticulous work and honesty, the customer offered him a job as a turnboy (driver's helper) and mechanic for his towing company.</p>
+                        <div class="growth-image">
+                            <img src="images/growth.jpeg" alt="Our Growth" class="rounded-lg shadow-xl">
+                        </div>
+                    </div>
+                </div>
+            </div>
+    
+            <!-- Why Choose Us -->
+            <div class="why-choose-us mt-5">
+                <h3 class="text-3xl font-bold text-center mb-5" data-aos="fade-up">Why Choose Us?</h3>
+                <div class="row g-4">
+                    <div class="col-md-4" data-aos="fade-up" data-aos-delay="100">
+                        <div class="feature-card">
+                            <div class="icon-wrapper">
+                                <i class="fas fa-shield-alt"></i>
+                            </div>
+                            <h4>A Legacy of Trust and Reliability</h4>
+                            <p>Since our founding, we've built a reputation for honesty, reliability, and exceptional service.</p>
+                        </div>
+                    </div>
+                    <div class="col-md-4" data-aos="fade-up" data-aos-delay="200">
+                        <div class="feature-card">
+                            <div class="icon-wrapper">
+                                <i class="fas fa-users"></i>
+                            </div>
+                            <h4>Customer-Centric Approach</h4>
+                            <p>We prioritize your experience, treating every customer like family.</p>
+                        </div>
+                    </div>
+                    <div class="col-md-4" data-aos="fade-up" data-aos-delay="300">
+                        <div class="feature-card">
+                            <div class="icon-wrapper">
+                                <i class="fas fa-map-marked-alt"></i>
+                            </div>
+                            <h4>Local Expertise, Nationwide Reach</h4>
+                            <p>Deep roots in Kenya's communities with expert mechanics across major cities.</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+    
+            <!-- Call to Action -->
+            <div class="about-cta text-center mt-5" data-aos="fade-up">
+                <h3 class="text-2xl font-bold mb-4">Ready to Experience Our Service?</h3>
+                <a href="tel:+254700070028" class="btn btn-primary btn-lg">
+                    <i class="fas fa-phone-alt me-2"></i>Call Us: +2547 048 512 97
+                </a>
+            </div>
+        </div>
+    </section>
+
+    <!-- Gallery Section -->
+    <section id="gallery" class="py-16 bg-gray-100">
+        <div class="container">
+            <h2 class="text-4xl font-bold text-center mb-12" data-aos="fade-up">Our Gallery</h2>
+            <div class="gallery-grid">
+                <div class="gallery-item" data-aos="fade-up">
+                    <img src="images/towing1.jpeg" alt="Towing Service">
+                    <div class="gallery-overlay">
+                        <h3>Emergency Towing</h3>
+                    </div>
+                </div>
+                <div class="gallery-item" data-aos="fade-up" data-aos-delay="100">
+                    <img src="images/towing2.jpeg" alt="Recovery Service">
+                    <div class="gallery-overlay">
+                        <h3>Vehicle Recovery</h3>
+                    </div>
+                </div>
+                <div class="gallery-item" data-aos="fade-up" data-aos-delay="200">
+                    <img src="images/towing3.jpeg" alt="Roadside Assistance">
+                    <div class="gallery-overlay">
+                        <h3>Roadside Assistance</h3>
+                    </div>
+                </div>
+            </div>
+            <div class="text-center">
+                <a href="gallery.html" class="view-more-btn" data-aos="fade-up">
+                    View More <i class="fas fa-arrow-right ms-2"></i>
+                </a>
+            </div>
+        </div>
+    </section>
+
+    <!-- Pricing Section -->
+    <section id="pricing" class="py-16">
+        <div class="container">
+            <h2 class="text-4xl font-bold text-center mb-12" data-aos="fade-up">Our Towing Charges in Kenya</h2>
+            <div class="pricing-container">
+                <div class="pricing-table-wrapper" data-aos="fade-right">
+                    <div class="pricing-table">
+                        <h3 class="pricing-title">Saloons and Station Wagons</h3>
+                        <div class="price-rows">
+                            <div class="price-row">
+                                <span class="distance">0-10 KM</span>
+                                <span class="price">KSH 5000</span>
+                            </div>
+                            <div class="price-row">
+                                <span class="distance">10-20 KM</span>
+                                <span class="price">KSH 6000</span>
+                            </div>
+                            <div class="price-row">
+                                <span class="distance">20-30 KM</span>
+                                <span class="price">KSH 8000</span>
+                            </div>
+                            <div class="price-row">
+                                <span class="distance">30-40 KM</span>
+                                <span class="price">KSH 10000</span>
+                            </div>
+                            <div class="price-row">
+                                <span class="distance">40-50 KM</span>
+                                <span class="price">KSH 12000</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            
+            <div class="pricing-table-wrapper" data-aos="fade-left">
+                <div class="pricing-table">
+                    <h3 class="pricing-title">SUVs, Pick-ups, Micro/Mini Bus and Trucks below 2 Tons</h3>
+                    <div class="price-rows">
+                        <div class="price-row">
+                            <span class="distance">0-10 KM</span>
+                            <span class="price">KSH 5500</span>
+                        </div>
+                        <div class="price-row">
+                            <span class="distance">10-20 KM</span>
+                            <span class="price">KSH 6500</span>
+                        </div>
+                        <div class="price-row">
+                            <span class="distance">20-30 KM</span>
+                            <span class="price">KSH 9000</span>
+                        </div>
+                        <div class="price-row">
+                            <span class="distance">30-40 KM</span>
+                            <span class="price">KSH 11000</span>
+                        </div>
+                        <div class="price-row">
+                            <span class="distance">40-50 KM</span>
+                            <span class="price">KSH 13000</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="pricing-notes" data-aos="fade-up">
+            <p><i class="fas fa-info-circle"></i> The rates are VAT inclusive</p>
+            <p><i class="fas fa-moon"></i> The rates are inclusive of Day and Night Towing Services</p>
+            <p><i class="fas fa-truck"></i> The rates will also apply for the Transportation of vehicles</p>
+        </div>
+    </div>
+</section>
+
+    <!-- Contact Section -->
+    <section id="contact" class="py-16 bg-gray-100">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-6" data-aos="fade-right">
+                    <h2 class="text-4xl font-bold mb-8">Contact Us</h2>
+                    <form id="contactForm" class="contact-form">
+                        <div class="mb-4">
+                            <input type="text" class="form-control" placeholder="Your Name" required>
+                        </div>
+                        <div class="mb-4">
+                            <input type="email" class="form-control" placeholder="Your Email" required>
+                        </div>
+                        <div class="mb-4">
+                            <input type="tel" class="form-control" placeholder="Your Phone" required>
+                        </div>
+                        <div class="mb-4">
+                            <textarea class="form-control" rows="5" placeholder="Your Message" required></textarea>
+                        </div>
+                        <button type="submit" class="btn btn-primary">Send Message</button>
+                    </form>
+                </div>
+                <div class="col-lg-6" data-aos="fade-left">
+                    <div class="map-container">
+                        <iframe 
+                            src="https://www.google.com/maps/embed?pb=YOUR_MAP_EMBED_CODE"
+                            width="100%" 
+                            height="450" 
+                            style="border:0;" 
+                            allowfullscreen="" 
+                            loading="lazy">
+                        </iframe>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Blog Section -->
+    <section id="blog" class="py-16">
+        <div class="container">
+            <h2 class="text-4xl font-bold text-center mb-12" data-aos="fade-up">Latest News</h2>
+            <div class="blog-grid">
+                <div class="blog-card" data-aos="fade-up">
+                    <div class="blog-image">
+                        <img src="images/nairobi.jpeg" alt="Nairobi Services">
+                        <div class="blog-category">Nairobi</div>
+                    </div>
+                    <div class="blog-content">
+                        <h3>24/7 Towing Services in Nairobi</h3>
+                        <p>Comprehensive towing services available throughout Nairobi...</p>
+                        <a href="#" class="read-more">Read More <i class="fas fa-arrow-right"></i></a>
+                    </div>
+                </div>
+    
+                <div class="blog-card" data-aos="fade-up" data-aos-delay="100">
+                    <div class="blog-image">
+                        <img src="images/mombasa.jpeg" alt="Mombasa Services">
+                        <div class="blog-category">Mombasa</div>
+                    </div>
+                    <div class="blog-content">
+                        <h3>Coastal Region Recovery Services</h3>
+                        <p>Expert vehicle recovery services in Mombasa and surrounding areas...</p>
+                        <a href="#" class="read-more">Read More <i class="fas fa-arrow-right"></i></a>
+                    </div>
+                </div>
+    
+                <div class="blog-card" data-aos="fade-up" data-aos-delay="200">
+                    <div class="blog-image">
+                        <img src="images/kisumu.jpeg" alt="Kisumu Services">
+                        <div class="blog-category">Kisumu</div>
+                    </div>
+                    <div class="blog-content">
+                        <h3>Lake Region Towing Solutions</h3>
+                        <p>Reliable towing services in Kisumu and the lake region...</p>
+                        <a href="#" class="read-more">Read More <i class="fas fa-arrow-right"></i></a>
+                    </div>
+                </div>
+            </div>
+            <div class="text-center mt-8">
+                <a href="blog.html" class="view-all-btn" data-aos="fade-up">
+                    View All Posts <i class="fas fa-arrow-right ms-2"></i>
+                </a>
+            </div>
+        </div>
+    </section>
+
+    <!-- Floating Action Buttons -->
+    <div class="floating-buttons">
+        <a href="https://wa.me/254704851297" class="whatsapp-btn" target="_blank">
+            <i class="fab fa-whatsapp"></i>
+        </a>
+        <a href="tel:+254704851297" class="call-btn">
+            <i class="fas fa-phone"></i>
+        </a>
+    </div>
+
+    <!-- Scripts -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/aos@2.3.4/dist/aos.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/js/all.min.js"></script>
+    <script src="js/main.js"></script>
+
+    <!-- Footer -->
+    <footer class="bg-dark text-light py-16">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-3 mb-4">
+                    <h4 class="text-xl font-bold mb-4">Get In Touch</h4>
+                    <ul class="contact-info">
+                        <li><i class="fas fa-map-marker-alt"></i> Nairobi, Kenya</li>
+                        <li><i class="fas fa-phone"></i> +2547 048 512 97</li>
+                        <li><i class="fas fa-envelope"></i> info@archerstowing.com</li>
+                    </ul>
+                </div>
+                <div class="col-lg-3 mb-4">
+                    <h4 class="text-xl font-bold mb-4">Popular Links</h4>
+                    <ul class="footer-links">
+                        <li><a href="#home">Home</a></li>
+                        <li><a href="#about">About Us</a></li>
+                        <li><a href="#contact">Contact Us</a></li>
+                        <li><a href="#pricing">Our Prices</a></li>
+                    </ul>
+                </div>
+                <div class="col-lg-3 mb-4">
+                    <h4 class="text-xl font-bold mb-4">Payment Methods</h4>
+                    <div class="mpesa-info">
+                        <p>Till Number: </p>
+                        <p>Paybill: </p>
+                    </div>
+                </div>
+                <div class="col-lg-3 mb-4">
+                    <h4 class="text-xl font-bold mb-4">Newsletter</h4>
+                    <form class="newsletter-form">
+                        <input type="text" placeholder="Full Name" class="form-control mb-2">
+                        <input type="email" placeholder="Email" class="form-control mb-2">
+                        <button type="submit" class="btn btn-primary w-100">SUBSCRIBE</button>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </footer>
+</body>
+</html>
+
+<!--Payment Methods
+<section id="payment" class="py-16 bg-gray-100">
+    <div class="container">
+        <h2 class="text-4xl font-bold text-center mb-12" data-aos="fade-up">Our Payment Methods</h2>
+        <div class="row justify-content-center">
+            <div class="col-md-6">
+                <div class="payment-method-card" data-aos="fade-up">
+                    <h3 class="text-xl font-bold mb-4">M-PESA Payment Options</h3>
+                    <div class="mpesa-details">
+                        <div class="payment-item">
+                            <h4>Buy Goods and Services Till Number</h4>
+                            <div class="number">924106</div>
+                        </div>
+                        <div class="payment-item">
+                            <h4>Paybill Number</h4>
+                            <div class="number">716539</div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>-->
+
+<!-- Add this just before the closing </body> tag -->
+    <!-- AI Chatbot Button -->
+    <div class="ai-chat-button" id="aiChatButton">
+        <i class="fas fa-robot"></i>
+    </div>
+
+    <!-- Chat Modal -->
+    <div class="chat-modal" id="chatModal">
+        <div class="chat-header">
+            <h4>Archers bot Assistant</h4>
+            <button class="close-chat" id="closeChat">
+                <i class="fas fa-times"></i>
+            </button>
+        </div>
+        <div class="chat-body" id="chatBody">
+            <!-- Chat messages will appear here -->
+        </div>
+        <div class="chat-input">
+            <input type="text" id="userInput" placeholder="Type your message...">
+            <button id="sendMessage">
+                <i class="fas fa-paper-plane"></i>
+            </button>
+        </div>
+    </div>
+
+    <!-- Back to Top Button -->
+    <div class="back-to-top" id="backToTop">
+        <i class="fas fa-arrow-up"></i>
+    </div>
+</body>

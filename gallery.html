@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Gallery - AutoAid Rescue</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
+    <link href="https://cdn.jsdelivr.net/npm/aos@2.3.4/dist/aos.css" rel="stylesheet">
+    <link href="css/style.css" rel="stylesheet">
+    <link href="css/gallery-page.css" rel="stylesheet">
+</head>
+<body>
+    <!-- Include the same navbar as index.html -->
+    <nav class="navbar navbar-expand-lg navbar-dark bg-black fixed-top">
+        <!-- Copy navbar content from index.html -->
+    </nav>
+
+    <!-- Gallery Header -->
+    <section class="page-header">
+        <div class="container">
+            <h1 class="text-4xl font-bold text-center" data-aos="fade-up">Our Gallery</h1>
+            <p class="text-center text-gray-600" data-aos="fade-up" data-aos-delay="100">View our professional towing services in action</p>
+        </div>
+    </section>
+
+    <!-- Gallery Grid -->
+    <section class="gallery-page-section">
+        <div class="container">
+            <div class="gallery-filters" data-aos="fade-up">
+                <button class="filter-btn active" data-filter="all">All</button>
+                <button class="filter-btn" data-filter="towing">Towing</button>
+                <button class="filter-btn" data-filter="recovery">Recovery</button>
+                <button class="filter-btn" data-filter="emergency">Emergency</button>
+            </div>
+            <div class="gallery-masonry">
+                <!-- Add 12-15 gallery items with different categories -->
+                <div class="gallery-item" data-category="towing" data-aos="fade-up">
+                    <img src="images/gallery/towing1.jpg" alt="Towing Service">
+                    <div class="gallery-overlay">
+                        <h3>Professional Towing</h3>
+                        <p>24/7 Emergency Service</p>
+                    </div>
+                </div>
+                <!-- Add more gallery items -->
+            </div>
+        </div>
+    </section>
+
+    <!-- Include the same footer as index.html -->
+    <footer class="bg-dark text-light py-16">
+        <!-- Copy footer content from index.html -->
+    </footer>
+
+    <!-- Scripts -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/aos@2.3.4/dist/aos.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/js/all.min.js"></script>
+    <script src="js/gallery.js"></script>
+</body>
+</html>
